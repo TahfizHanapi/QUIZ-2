@@ -1,0 +1,33 @@
+package LabTest;
+import java.util.Scanner;
+public class Quiz2Q1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int classheld, classattend;
+		double percentage;
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Class held: ");
+		classheld = input.nextInt();
+		
+		System.out.print("Class attend: ");
+		classattend = input.nextInt();
+		
+		percentage = (classattend / classheld) * 100;
+		
+		System.out.printf("Percentage: %.2f" , percentage );
+		
+		if (classattend > 75) {
+			System.out.print("Allow for Examination");
+		}
+		
+		else (percentage < 75)
+		System.out.print("Not Allow for Examination");
+		
+
+	}
+
+}
