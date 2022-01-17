@@ -1,0 +1,25 @@
+package LabTest;
+import java.util.Scanner;
+public class Quiz2Q2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int integer0, integer1, integer2, integer3, integer4;
+		
+		Scanner input = new Scanner (System.in);
+		
+        System.out.println("Enter integer: ");
+		
+		integer0 = input.nextInt();
+		integer1 = input.nextInt();
+		integer2 = input.nextInt();
+		integer3 = input.nextInt();
+		integer4 = input.nextInt();
+		
+		System.out.println("The numbers in reverse order are: ");
+		System.out.println(integer4 + " " + integer3 + " " + integer2 + " " + integer1 + " " + integer0);
+
+	}
+
+}
